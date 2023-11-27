@@ -103,7 +103,6 @@ data = {
 	'Claude Clawmark': 171,
 	'Doppio Dropscythe': 187,
 	'Elira Pendora': 160,
-	'Enna Alouette': 149,
 	'Finana Ryugu': 140,
 	'Fulgur Ovid': 178,
 	'Hex Haywire': 185,
