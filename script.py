@@ -306,7 +306,7 @@ data = {
 }
 base_ref_cm = 173 # kaela
 base_ref_h = 1267 # ref version height in px
-# trial and error to make height chart in website match with the heights
+# base_ref_h / base_ref_cm * 215 (to fit all chart lines with equal spacing)
 fixed_heigth_px = 1575
 
 def main():
