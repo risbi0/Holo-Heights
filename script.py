@@ -266,7 +266,7 @@ data = {
 	'Shishido Akari': 149,
 	'Shizuka Rin': 158,
 	'Siska Leontyne': 170,
-	'Sister Cleaire': 150,
+	'Sister Claire': 150,
 	'Song Mia': 159,
 	'Sophia Valentine': 153,
 	'Sorahoshi Kirame': 148,
