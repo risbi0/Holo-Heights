@@ -323,7 +323,7 @@ data = {
     'Runa Shinomiya': 147,
     'Sena Asumi': 155,
     'Sumire Kaga': 154,
-    'Toto Kagara': 148,
+    'Toto Kogara': 148,
     'Tsuna Nekota': 157,
     'Uruha Ichinose': 158,
 }
