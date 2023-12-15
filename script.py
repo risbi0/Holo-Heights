@@ -339,7 +339,7 @@ def main():
             img = Image.open(os.path.join(file_dir, 'raw', file))
             ref_img = Image.open(os.path.join(file_dir, 'ref', file))
             target_w, target_h = img.size
-            ref_w, ref_h = ref_img.size
+            _, ref_h = ref_img.size
             # calculate scaled heights
             target_ref_cm = data[name_key]
             adjusted_h = target_ref_cm / base_ref_cm * base_ref_h
