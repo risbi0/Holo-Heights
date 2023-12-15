@@ -4,6 +4,7 @@ import os
 file_dir = os.path.dirname(__file__)
 
 data = {
+    # Hololive Production
     'Airani Iofifteen': 150,
     'Akai Haato': 154,
     'Aki Rosenthal': 162,
@@ -97,6 +98,7 @@ data = {
     'Goldbullet': 190,
     'Octavio': 174,
     'Crimzon Ruze': 184,
+    # Nijisanji
     'Aia Amare': 158,
 	'Alban Knox': 175,
 	'Aster Arcadia': 170,
@@ -304,6 +306,7 @@ data = {
 	'Yuki Chihiro': 138,
 	'Yuzuki Roa': 141,
 	'ZEA Cornelia': 149,
+    # VSPO!
     'Akari Yumeno': 149,
     'Beni Yakumo': 158,
     'Ema Aizawa': 156,
