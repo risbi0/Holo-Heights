@@ -321,7 +321,7 @@ data = {
 	'Nekota Tsuna': 157,
 	'Shinomiya Runa': 147,
 	'Shiranami Ramune': 153,
-	'Tachibana Hinano ': 154,
+	'Tachibana Hinano': 154,
 	'Tosaki Mimi': 148,
 	'Yakumo Beni': 158,
 	'Yano Kuromu': 150,
