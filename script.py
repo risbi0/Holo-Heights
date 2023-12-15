@@ -182,6 +182,7 @@ data = {
 	'Ha Yun': 178,
 	'Hibachi Mana': 170,
 	'Higuchi Kaede': 167,
+    'Honma Hiwakari': 153,
 	'Hoshikawa Sara': 155,
 	'Hoshirube Sho': 177,
 	'Hyakumantenbara Salome': 163,
