@@ -331,6 +331,7 @@ base_ref_cm = 173 # kaela
 base_ref_h = 1267 # ref version height in px
 # base_ref_h / base_ref_cm * 215 (to fit all chart lines with equal spacing)
 fixed_heigth_px = 1575
+fixed_width_px = 1300 # for consistent movement speed in website
 
 def main():
     for file in os.listdir(os.path.join(file_dir, 'raw')):
@@ -351,10 +352,12 @@ def main():
             aspect_ratio = target_w / target_h
             width = int(target_h_2 * aspect_ratio)
             resized_img = img.resize((width, target_h_2))
-            # add padding top
+            # add padding top, left, right
             width, height = resized_img.size
-            padded_img = Image.new("RGBA", (width, fixed_heigth_px), (0, 0, 0, 0))
-            padded_img.paste(resized_img, (0, fixed_heigth_px - height))
+            padded_img = Image.new("RGBA", (fixed_width_px, fixed_heigth_px), (0, 0, 0, 0))
+            centered_x_offset = round((fixed_width_px / 2) - (width / 2))
+            top_offset = fixed_heigth_px - height
+            padded_img.paste(resized_img, (centered_x_offset, top_offset))
             # save
             padded_img.save(os.path.join(file_dir, 'out', file))
 
