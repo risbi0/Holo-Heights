@@ -353,9 +353,8 @@ def main():
             resized_img = img.resize((width, target_h_2))
             # add padding top
             width, height = resized_img.size
-            fixed_heigth = fixed_heigth_px - height
-            padded_img = Image.new("RGBA", (width, height + fixed_heigth), (0, 0, 0, 0))
-            padded_img.paste(resized_img, (0, fixed_heigth))
+            padded_img = Image.new("RGBA", (width, fixed_heigth_px), (0, 0, 0, 0))
+            padded_img.paste(resized_img, (0, fixed_heigth_px - height))
             # save
             padded_img.save(os.path.join(file_dir, 'out', file))
 
