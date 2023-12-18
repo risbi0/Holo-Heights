@@ -326,6 +326,11 @@ data = {
 	'Yakumo Beni': 158,
 	'Yano Kuromu': 150,
 	'Yumeno Akari': 149,
+    # mamas
+    'Aoi Nabi': 159,
+    'Iida Pochi': 163,
+    'Kagura Nana': 151,
+    'Shigure Ui': 149,
 }
 base_ref_cm = 173 # kaela
 base_ref_h = 1267 # ref version height in px
